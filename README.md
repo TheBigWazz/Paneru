@@ -12,7 +12,22 @@
   <br>
   <br>
   Elements respect Firefox theme colors. <a href="https://addons.mozilla.org/en-US/firefox/addon/zen-internet/">Zen Internet</a> is reccomended to style page transparency.
+  <br>
 </p>
+<br>
+
+
+<p align="center">
+
+<img height="60" alt="sine-badge" src="https://github.com/user-attachments/assets/792be2e2-5fa0-49ad-ba98-cb253be062bc" />
+
+<img height="60" alt="zi-badge" src="https://github.com/user-attachments/assets/fa81f767-e271-4be1-ad71-6eb0e2f11887" />
+
+
+<br>
+<br>
+</p>
+
 
 > [!Note]
 > This theme is a work-in-progress. Some elements are not yet properly styled. 
