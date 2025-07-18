@@ -1,0 +1,83 @@
+
+/*************************************************************************************************************************************************************************************************************************************************************
+
+"userChrome.css" is a custom CSS file that can be used to specify CSS style rules for Floorp's interface (NOT internal site) using "chrome" privileges.
+For instance, if you want to hide the tab bar, you can use the following CSS rule:
+
+**************************************
+#TabsToolbar {                       *
+    display: none !important;        *
+}                                    *
+**************************************
+
+NOTE: You can use the userChrome.css file without change preferences (about:config)
+
+Quote: https://userChrome.org | https://github.com/topics/userchrome 
+
+************************************************************************************************************************************************************************************************************************************************************/
+
+@charset "UTF-8";
+@-moz-document url(chrome://browser/content/browser.xhtml) {
+/* Please write your custom CSS under this line*/
+
+#navigator-toolbox {
+background-color: var(--toolbox-bgcolor) !important;
+/* Add margin to all sides to create a gap around it */
+margin: 6px !important;
+border-radius: 10px !important;
+border: none !important;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#sidebar-main {
+background-color: var(--toolbox-bgcolor) !important;
+margin: 6px !important;
+border-radius: 10px !important;
+border: none !important;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#panel-sidebar-select-box {
+background-color: var(--toolbox-bgcolor) !important;
+margin: 6px !important;
+border-radius: 10px !important;
+border: none !important;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+html#main-window {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#browser {
+background-color: var(--toolbox-bgcolor-rgb) !important;
+border-radius: 10px !important;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/* 5. Ensure web content respects the rounded bottom corners of the slate. */
+#appcontent, .browserStack {
+
+border-radius: 10px !important;
+overflow: hidden !important;
+}
+
+#tabbrowser-tabpanels {
+background-color: var(--toolbox-bgcolor) !important;
+margin: 6px !important;
+border-radius: 12px !important;
+border: none !important;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#tabbrowser-tabbox {
+background-color: rgba(0, 0, 0, 0) !important;
+box-shadow: none !important;
+}
+
+
+
+
+
+}
