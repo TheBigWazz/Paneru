@@ -3,8 +3,9 @@
  This is an example userChrome.css file. Use it if you don't already have a userCh*rome file.
  If you already have one, append the import statement below at the top of your userChrome file.
 
- */
+*/
 
-@import "Paneru/Paneru.css";
+@import "moduels/paneruChrome.css";
+@import "moduels/paneruURL.css"
 
 /* You can import additional mods above, or add your own userchrome CSS below. */

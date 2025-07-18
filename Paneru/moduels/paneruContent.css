@@ -1,0 +1,9 @@
+/* Make the webpage transparent */
+@-moz-document url-prefix("http"), url-prefix("https"), url-prefix("file"), url-prefix("about:blank"), url-prefix("about:newtab") {
+
+    html, body {
+        background-color: transparent !important;
+    }
+
+}
+

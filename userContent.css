@@ -1,32 +1,10 @@
+/*
 
-/*************************************************************************************************************************************************************************************************************************************************************
+ This is an example userChrome.css file. Use it if you don't already have a userC*h*rome file.
+ If you already have one, append the import statement below at the top of your userChrome file.
 
-"userContent.css" is a custom CSS file that can be used to specify CSS style rules for Floorp's internal site using "chrome" privileges.
-For instance, if you want to apply CSS at "about:newtab" and "about:home", you can use the following CSS rule:
+*/
 
-***********************************************************************
-@-moz-document url-prefix("about:newtab"), url-prefix("about:home") { *
-                                                                      *
-* Write your css *                                                    *
-                                                                      *
-}                                                                     *
-***********************************************************************
+@import "Paneru/modules/paneruContent.css";
 
-NOTE: You can use the userContent.css file without change preferences (about:config)
-
-************************************************************************************************************************************************************************************************************************************************************/
-
-@charset "UTF-8";
-/* Please write your custom CSS under this line*/
-
-/* In userContent.css */
-
-/* Target common webpages, new tabs, and blank pages */
-@-moz-document url-prefix("http"), url-prefix("https"), url-prefix("file"), url-prefix("about:blank"), url-prefix("about:newtab") {
-  
-  /* Make the root elements of the page transparent */
-  html, body {
-    background-color: transparent !important;
-  }
-
-}
+/* You can import additional mods above, or add your own userchrome CSS below. */
