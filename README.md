@@ -19,10 +19,11 @@
 
 <p align="center">
 
-<img height="60" alt="sine-badge" src="https://github.com/user-attachments/assets/792be2e2-5fa0-49ad-ba98-cb253be062bc" />
+<img height="60" alt="sine-compat-badge" src="https://github.com/user-attachments/assets/ec7348eb-b0fe-4b05-90a9-f20c54612882" />
 
-<img height="60" alt="zi-badge" src="https://github.com/user-attachments/assets/fa81f767-e271-4be1-ad71-6eb0e2f11887" />
+<img height="60" alt="fc-compat-badge" src="https://github.com/user-attachments/assets/bbe41942-b0e8-4618-8560-a1148c95bb2a" />
 
+<img height="60" alt="zi-compat-badge" src="https://github.com/user-attachments/assets/8a8b47dd-0213-4731-a7e8-76d05661a422" />
 
 <br>
 <br>
