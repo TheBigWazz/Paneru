@@ -8,6 +8,7 @@
     "image": "https://raw.githubusercontent.com/TheBigWazz/Paneru/main/image.png",
     "author": "TheBigWazz",
     "version": "1.0.0",
+    "fork": ["floorp"]
     "tags": [
         "ui",
         "customization"
