@@ -1,4 +1,5 @@
 {
+    "id": "paneru",
     "name": "Paneru",
     "description": "A comprehensive theme that separates various elements onto their own panel, respects Firefox theme colors, and supports transparency.",
     "homepage": "https://github.com/TheBigWazz/Paneru",
@@ -11,5 +12,4 @@
         "ui",
         "customization"
     ]
-
 }
