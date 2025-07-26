@@ -7,7 +7,7 @@
     "readme": "https://raw.githubusercontent.com/TheBigWazz/Paneru/main/README.md",
     "image": "https://raw.githubusercontent.com/TheBigWazz/Paneru/main/image.png",
     "author": "TheBigWazz",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "fork": ["floorp"],
     "tags": [
         "ui",
