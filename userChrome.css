@@ -5,7 +5,6 @@
 
  */
 
-@import "Paneru/Paneru.css",
-@import "Peneru/modules/paneruURL.css";
+@import "Paneru/Paneru.css";
 
 /* You can import additional mods above, or add your own userchrome CSS below. */
