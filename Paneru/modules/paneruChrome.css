@@ -1,130 +1,180 @@
-/* 
-==============
-     UI
-==============
-*/
+/* Nav-bar styling */
 
-#urlbar:not([focused]) .urlbar-input {
-  text-align: center !important;
-}
 
-#urlbar-background {
-  border-radius: 10px !important;
-}
 
-.urlbarView-row {
-  margin-bottom: 20px !important; /* Adjust the value as needed */
-}
+#navigator-toolbox {
 
-#identity-icon-box {
-  border-radius: 8px !important;
-}
 
-#urlbar-searchmode-switcher {
-  border-radius: 8px !important;
-}
+    background-color: var(--toolbox-bgcolor) !important;
 
-#urlbar[open] {
-  top: 11px !important; /* or whatever value you want */
-}
 
-/* 
-==============
-  Animations
-==============
-*/
+    margin: 6px !important;
 
-/* URL Bar Expand/Collapse Animation */
-#urlbar[focused] .urlbar-background {
-  animation: urlbarExpand 0.3s ease-out;
-}
 
-#urlbar:not([focused]) .urlbar-background {
-  animation: urlbarCollapse 0.2s ease-in;
-}
+    border-radius: 10px !important;
 
-@keyframes urlbarExpand {
-  from {
-    transform: scaleX(0.8) scaleY(0.7);
-    opacity: 0.5;
-  }
-  to {
-    transform: scaleX(1) scaleY(1);
-    opacity: 1;
-  }
-}
 
-@keyframes urlbarCollapse {
-  from {
-    transform: scaleX(1) scaleY(1);
-  }
-  to {
-    transform: scaleX(0.95) scaleY(0.9);
-  }
-}
+    border: none !important;
 
-/* Results Panel Animation */
-#urlbar-results {
-  animation: resultsFadeIn 0.25s ease-out;
-}
 
-@keyframes resultsFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
-/* Optional: Smooth width transition */
-#urlbar {
-  transition: width 0.2s ease-in-out;
-}/* Animate each result row individually */
-#urlbar-results {
-  opacity: 1 !important; /* Ensure parent container stays visible */
-}
 
-.urlbarView-row {
-  opacity: 0;
-  animation: resultEntry 0.3s ease-out forwards;
-}
+    }
 
-/* Cascade animation with staggered delays */
-.urlbarView-row:nth-child(1) { animation-delay: 0.05s; }
-.urlbarView-row:nth-child(2) { animation-delay: 0.10s; }
-.urlbarView-row:nth-child(3) { animation-delay: 0.15s; }
-.urlbarView-row:nth-child(4) { animation-delay: 0.20s; }
-.urlbarView-row:nth-child(5) { animation-delay: 0.25s; }
-.urlbarView-row:nth-child(6) { animation-delay: 0.30s; }
-.urlbarView-row:nth-child(7) { animation-delay: 0.35s; }
-.urlbarView-row:nth-child(8) { animation-delay: 0.40s; }
-.urlbarView-row:nth-child(9) { animation-delay: 0.45s; }
-.urlbarView-row:nth-child(10) { animation-delay: 0.50s; }
 
-@keyframes resultEntry {
-  from {
-    opacity: 0;
-    transform: translateY(-8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-/* Adjust original results panel animation */
-#urlbar-results {
-  animation: resultsFadeIn 0.2s ease-out;
-}
 
-@keyframes resultsFadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
+/* Vertical Tab Sidebar */
+
+
+#sidebar-main {
+
+
+    background-color: var(--toolbox-bgcolor) !important;
+
+
+    margin: 6px !important;
+
+
+    border-radius: 10px !important;
+
+
+    border: none !important;
+
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+
+    }
+
+
+
+
+
+/* Floorp Sidebar */
+
+
+#panel-sidebar-select-box {
+
+
+    background-color: var(--toolbox-bgcolor) !important;
+
+
+    margin: 6px !important;
+
+
+    border-radius: 10px !important;
+
+
+    border: none !important;
+
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+
+    }
+
+
+
+
+
+/* Main Backgroud */
+
+
+html#main-window {
+
+
+    background-color: rgba(0, 0, 0, 0) !important; /* Change this to alter background transparency */
+
+
+    }
+
+
+
+
+
+/* Background behind elements except Nav-bar */
+
+
+#browser {
+
+
+    background-color: var(--toolbox-bgcolor-rgb) !important;
+
+
+    border-radius: 10px !important;
+
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+
+    }
+
+
+
+
+
+/* Set rounded corners for webpage viewport */
+
+
+#appcontent, .browserStack {
+
+
+    border-radius: 10px !important;
+
+
+    overflow: hidden !important;
+
+
+    }
+
+
+
+
+
+/* Webpage viewport */
+
+
+#tabbrowser-tabpanels {
+
+
+    background-color: var(--toolbox-bgcolor) !important;
+
+
+    margin: 6px !important;
+
+
+    border-radius: 12px !important;
+
+
+    border: none !important;
+
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+
+    }
+
+
+
+
+
+/* Webpage container */
+
+
+#tabbrowser-tabbox {
+
+
+    background-color: rgba(0, 0, 0, 0) !important;
+
+
+    box-shadow: none !important;
+
+
+    outline: 0px !important;
+
+
+    }
+
