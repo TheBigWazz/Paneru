@@ -4,6 +4,10 @@
 ==============
 */
 
+#urlbar:not([focused]) .urlbar-input {
+  text-align: center !important;
+}
+
 #urlbar-background {
   border-radius: 10px !important;
 }
@@ -18,6 +22,10 @@
 
 #urlbar-searchmode-switcher {
   border-radius: 8px !important;
+}
+
+#urlbar[open] {
+  top: 11px !important; /* or whatever value you want */
 }
 
 /* 
@@ -120,12 +128,3 @@
     opacity: 1;
   }
 }
-
-
-
-
-
-
-
-
-
