@@ -1,180 +1,62 @@
 /* Nav-bar styling */
-
-
-
 #navigator-toolbox {
-
-
     background-color: var(--toolbox-bgcolor) !important;
-
-
     margin: 6px !important;
-
-
     border-radius: 10px !important;
-
-
     border: none !important;
-
-
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-
     }
-
-
-
-
 
 /* Vertical Tab Sidebar */
-
-
 #sidebar-main {
-
-
     background-color: var(--toolbox-bgcolor) !important;
-
-
     margin: 6px !important;
-
-
     border-radius: 10px !important;
-
-
     border: none !important;
-
-
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-
     }
-
-
-
-
 
 /* Floorp Sidebar */
-
-
 #panel-sidebar-select-box {
-
-
     background-color: var(--toolbox-bgcolor) !important;
-
-
     margin: 6px !important;
-
-
     border-radius: 10px !important;
-
-
     border: none !important;
-
-
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-
     }
-
-
-
-
 
 /* Main Backgroud */
-
-
 html#main-window {
-
-
     background-color: rgba(0, 0, 0, 0) !important; /* Change this to alter background transparency */
-
-
     }
-
-
-
-
 
 /* Background behind elements except Nav-bar */
-
-
 #browser {
-
-
     background-color: var(--toolbox-bgcolor-rgb) !important;
-
-
     border-radius: 10px !important;
-
-
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-
     }
-
-
-
-
 
 /* Set rounded corners for webpage viewport */
-
-
 #appcontent, .browserStack {
-
-
     border-radius: 10px !important;
-
-
     overflow: hidden !important;
-
-
     }
-
-
-
-
 
 /* Webpage viewport */
 
 
 #tabbrowser-tabpanels {
-
-
     background-color: var(--toolbox-bgcolor) !important;
-
-
     margin: 6px !important;
-
-
     border-radius: 12px !important;
-
-
     border: none !important;
-
-
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-
     }
-
-
-
-
 
 /* Webpage container */
-
-
 #tabbrowser-tabbox {
-
-
     background-color: rgba(0, 0, 0, 0) !important;
-
-
     box-shadow: none !important;
-
-
     outline: 0px !important;
-
-
     }
-
